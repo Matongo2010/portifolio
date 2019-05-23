@@ -1,12 +1,15 @@
-body {
+body{
     background-image: url('https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/32855179_1807279929328301_3200083113233350656_n.jpg?_nc_cat=106&_nc_ht=scontent.fmba3-1.fna&oh=846c25e3d65cd154f0a1051f215788c1&oe=5D60E8E1');
 
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 Nav,ul,li,a{
     display:flex;
     flex-direction: row;
-    text-justify: auto;
-    text-align:right
+}
+
+ul {
+    float: right;
 }
