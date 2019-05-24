@@ -1,15 +1,39 @@
 body{
-    background-image: url('https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/32855179_1807279929328301_3200083113233350656_n.jpg?_nc_cat=106&_nc_ht=scontent.fmba3-1.fna&oh=846c25e3d65cd154f0a1051f215788c1&oe=5D60E8E1');
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328__340.jpg');
 
-    background-size: cover;
+    background-size:1350px 700px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
 }
 
-Nav,ul,li,a{
-    display:flex;
-    flex-direction: row;
+
+nav{
+    padding: px;
 }
 
-ul {
-    float: right;
+nav,ul,li,a{
+    display:block;
+    padding: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
 }
+
+nav,ul,li{
+    display:inline-block;
+}
+
+nav,ul{
+    text-align: left;
+}
+
+p{
+    color: white
+}
+h1{
+    color: white
+}
+
