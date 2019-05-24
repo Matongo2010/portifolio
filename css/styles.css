@@ -1,7 +1,7 @@
-body{
-    background-image: url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328__340.jpg');
+.index{
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328__340.jpg' );
 
-    background-size: 110%;
+    background-size: 1350px 850px;
     background-repeat: no-repeat;
     background-position: center center;
     
@@ -12,24 +12,19 @@ body{
 
 nav,ul,li,a{
     display:block;
-    padding: 3px;
+    padding: 8px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
     font-size: x-large;
-    float: left;
+    float: right;
     
 }
 
 nav,ul,li{
-    display:inline-block;
-    float: right
-    
+    display:inline;
 }
 
-nav,ul{
-    text-align: left;
-}
 
 p{
     color: white
@@ -38,24 +33,29 @@ h1{
     color: white
 }
 
-img{position: absolute; right:0px;
-    padding-right: 30%;
-    padding-top: 16%
-
+img{position:absolute;bottom:0%;
+    bottom: -9%;
+    padding-left: 40%
+   
 }
 
 .intro{
-    padding-top: 29%;
+    padding-top: 26%;
 }
 
 .career{
-    padding-top: 5%;
-    font-style: oblique;
+    padding-top: 0%;
     font-size: x-large;
+    font-style: normal;
 
 }
 
 .quote{
-    
+    padding-top:8%;
+    padding-left: 29%
+}
+
+.myself{
+    background-color: grey
 }
 
