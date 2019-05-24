@@ -1,17 +1,14 @@
 body{
     background-image: url('https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328__340.jpg');
 
-    background-size:1350px 700px;
+    background-size: 110%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center center;
+    
+
     
 }
 
-
-nav{
-    padding: px;
-}
 
 nav,ul,li,a{
     display:block;
@@ -20,10 +17,14 @@ nav,ul,li,a{
     text-decoration: none;
     color: white;
     font-size: x-large;
+    float: left;
+    
 }
 
 nav,ul,li{
     display:inline-block;
+    float: right
+    
 }
 
 nav,ul{
@@ -35,5 +36,26 @@ p{
 }
 h1{
     color: white
+}
+
+img{position: absolute; right:0px;
+    padding-right: 30%;
+    padding-top: 16%
+
+}
+
+.intro{
+    padding-top: 29%;
+}
+
+.career{
+    padding-top: 5%;
+    font-style: oblique;
+    font-size: x-large;
+
+}
+
+.quote{
+    
 }
 
