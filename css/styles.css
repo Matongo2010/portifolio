@@ -12,7 +12,7 @@
 
 .nav>ul>li>a{
     display:block;
-    padding: 8px;
+    padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -21,10 +21,14 @@
     
 }
 
+
 .nav>ul>li{
     display:inline;
 }
 
+li:hover{
+    color: white;
+}
 
 h1{
     color: white
@@ -39,7 +43,7 @@ h1{
 }
 
 .intro{
-    padding-top: 26%;
+    padding-top: 24%;
     color: white;
     
 }
@@ -80,3 +84,21 @@ img{
     padding-left: 8%;
 }
 
+#email{
+    padding-top: 25%;
+}
+
+.nav:hover{
+    color: white;
+}
+
+#singing{
+    float: right; 
+    padding-right: 10%;
+    padding-top: 2%
+}
+
+#music{
+    float: left;
+
+}
