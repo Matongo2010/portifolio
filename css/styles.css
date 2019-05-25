@@ -10,7 +10,7 @@
 }
 
 
-nav,ul,li,a{
+.nav>ul>li>a{
     display:block;
     padding: 8px;
     text-transform: uppercase;
@@ -21,43 +21,48 @@ nav,ul,li,a{
     
 }
 
-nav,ul,li{
+.nav>ul>li{
     display:inline;
 }
 
 
-p{
-    color: white
-}
 h1{
     color: white
 }
 
-img{position:absolute;bottom:0%;
+img{
+    position:absolute;bottom:0%;
     bottom: -9%;
     padding-left: 40%;
     box-shadow:12px 12px 6px whitesmoke;
-    box
    
 }
 
 .intro{
     padding-top: 26%;
+    color: white;
+    
 }
 
 .career{
     padding-top: 0%;
     font-size: x-large;
     font-style: normal;
+    color: white;
 
 }
 
 .quote{
     padding-top:8%;
-    padding-left: 29%
+    padding-left: 29%;
+    color: white;
 }
 
 .myself{
     background-color: grey
+}
+
+.hobbies {
+    
 }
 
