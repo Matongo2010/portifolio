@@ -62,7 +62,12 @@ img{
     background-color: grey
 }
 
-.hobbies {
-    
+.about{
+    background-color: darkgray;
+    text-justify: newspaper;
+}
+
+#adriano{
+    text-align: center;
 }
 
