@@ -15,7 +15,7 @@
     padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: seagreen;
     font-size: x-large;
     float: right;
     
@@ -31,7 +31,7 @@ li:hover{
 }
 
 h1{
-    color: white
+    color:white;
 }
 
 #picha{
@@ -81,11 +81,13 @@ h1{
 
 img{
     float: left;
-    padding-left: 8%;
+    padding-left: 5%;
+    
 }
 
 #email{
-    padding-top: 25%;
+    padding-top: 37%;
+    padding-left: 36%
 }
 
 .nav:hover{
@@ -94,11 +96,23 @@ img{
 
 #singing{
     float: right; 
-    padding-right: 10%;
-    padding-top: 2%
+    padding-right: 13%;
+    padding-top: 0%
 }
 
 #music{
     float: left;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-left: 2%
 
+}
+
+#contacts{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.projects{
+    background-color: gray;
 }
